@@ -15,7 +15,7 @@ test('Browser Context Playwright test', async ({ page}) =>
         await expect(documentLink).toHaveAttribute("class", "blinkingText");
 });
 
-test.only('@Child windows hadl', async({browser})=>
+test('@Child windows hadl', async({browser})=>
 {
     const context = await browser.newContext();
     const page = await context.newPage();

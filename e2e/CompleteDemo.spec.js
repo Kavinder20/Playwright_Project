@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test.only('Browser Context Playwright test', async ({ page }) => {
+test('Browser Context Playwright test', async ({ page }) => {
 
     const email = "Kavindersingh588@gmail.com"
     const productName = 'ADIDAS ORIGINAL' ;

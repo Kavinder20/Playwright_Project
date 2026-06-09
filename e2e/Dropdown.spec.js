@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test.only('Browser Context Playwright test', async ({ page}) =>
+test('Browser Context Playwright test', async ({ page}) =>
 {
 
    // await page.goto("https://practice.expandtesting.com/dropdown");
